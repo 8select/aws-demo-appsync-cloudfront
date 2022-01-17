@@ -1,0 +1,27 @@
+{
+  "name": "aws-demo-appsync-cloudfront",
+  "version": "0.0.0",
+  "description": "Demo using an AppSync GraphQL API behind two CloudFront distributions connected in series",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "cdk": "cdk",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robert Da Silva <mail@robdasilva.com> (https://robdasilva.com)",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@aws-cdk/aws-appsync": "1.139.0",
+    "@aws-cdk/aws-cloudfront": "1.139.0",
+    "@aws-cdk/aws-cloudfront-origins": "1.139.0",
+    "@aws-cdk/aws-iam": "1.139.0",
+    "@aws-cdk/aws-lambda": "1.139.0",
+    "@aws-cdk/core": "1.139.0",
+    "aws-cdk": "1.139.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
